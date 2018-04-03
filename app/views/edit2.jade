@@ -1,0 +1,13 @@
+extends newlayout
+
+block content
+  .container
+    form.form-signin(role='form', action='http://localhost:3000/newkart/productedit1',method="post", style='max-width: 300px;')
+      h2.form-signin-heading Edit Product
+      input.form-control(type='text', name="p_id", placeholder='Enter Product ID',required='true')
+      input.form-control(type='text', name="p_name", placeholder='Enter Product Name',required='true')
+      input.form-control(type='text', name="p_color",placeholder='Enter Color of Product',required='true')
+      input.form-control(type='text', name="p_size",placeholder='Enter Product size',required='true')
+      input.form-control(type='text', name="p_category",placeholder='Enter Product Category',required='true')
+      input.form-control(type='text', name="p_cost",placeholder='Enter Product Cost',required='true')
+      button.btn.btn-lg.btn-primary.btn-block(type='submit') EDIT PRODUCT

@@ -1,0 +1,8 @@
+extends newlayout
+
+block content
+  .container
+    form.form-signin(role='form',action='http://localhost:3000/newkart/productedit',method="post", style='max-width: 300px;')
+      h2.form-signin-heading Edit Particular Product
+      input.form-control(type='text', name="p_name", placeholder='Enter Product name',required='true')
+      button.btn.btn-lg.btn-primary.btn-block(type='submit') Submit

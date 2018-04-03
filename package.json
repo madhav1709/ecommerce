@@ -1,0 +1,26 @@
+{
+  "name": "newkart",
+  "version": "1.0.0",
+  "description": "ecommerce website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "madhav",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "express-flash": "0.0.2",
+    "express-session": "^1.15.6",
+    "jade": "^1.11.0",
+    "mongoose": "^5.0.11",
+    "morgan": "^1.9.0",
+    "nodemailer": "^4.6.3",
+    "nodemon": "^1.17.2",
+    "path": "^0.12.7",
+    "pug": "^2.0.3"
+  }
+}

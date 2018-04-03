@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  .container
+    form.form-signin(role='form', action="http://localhost:3000/newkart/signup/seller",method="post", style='max-width: 300px;')
+      h2.form-signin-heading Sign Up here
+      input.form-control(type='text', name="name", placeholder='Your Full Name')
+      input.form-control(type='text', name="username", placeholder='Your Username')
+      input.form-control(type='text', name="mobile_no",placeholder='Mobile phone number')
+      input.form-control(type='text', name="email_id",placeholder='Email_id')
+      input.form-control(type='text', name="company_name",placeholder='Enter Company Name')
+      input.form-control(type='text', name="company_address",placeholder='Enter Company Address')
+      input.form-control(type='password', name="password", placeholder='Your Password')
+      button.btn.btn-lg.btn-primary.btn-block(type='submit') Sign Up
